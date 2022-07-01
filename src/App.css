@@ -6,7 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.profile-pic{
+  height:150px;
+  width:150px;
+  object-fit:cover;
+  border-radius:50%;
+  transition:0.5s;
+}
+.profile-pic:hover{
+  transform:scale(1.1);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
